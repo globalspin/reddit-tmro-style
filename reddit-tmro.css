@@ -2313,7 +2313,7 @@
 		}
 
 	/* Subscriber Name */
-		div.titlebox span.number:after {content: " readers";} /* Leave the space before the name! */
+		div.titlebox span.number:after {content: " space cases";} /* Leave the space before the name! */
 
 	/* --------------------------- */
 
