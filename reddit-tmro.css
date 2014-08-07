@@ -13,7 +13,11 @@
 		V1.7 - Update 3 - A whole lot of UI tweaks and fixes.
 		V2.0 - Update 4 - Naut is now on GitHub, added nightmode and some fixes.
 		V2.1 - Update 5 - Initial CSS3 update - Added transitions and minor responsive tweaks.
-		-------------------------------------------------------------------------- */
+		-------------------------------------------------------------------------- 
+
+		Modified by Chris Radcliff for /r/TMRO.
+
+*/
 			
 	body {
 		background-color: #f1f1f1;
@@ -505,7 +509,7 @@
 				margin-left: 5px;
 				font-weight: lighter;
 				color: #707070;
-				text-transform: capitalize;
+				text-transform: uppercase;
 				font-size: 25px;
 				font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 			}
@@ -2305,7 +2309,7 @@
 
 	/* Submit page message */
 		.formtabs-content .infobar:before {
-			content: "Here you can set text that users will see when submitting."; /* Don't delete the " "*/
+			content: "Use 'text' for questions or suggestions, and 'link' to share space news."; /* Don't delete the " "*/
 		}
 
 	/* Subscriber Name */
