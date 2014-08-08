@@ -1391,6 +1391,18 @@
 			cursor: help;
 		}
 
+    .flair-benny, .flair-cariann, .flair-official, .flair-patron {
+      background: url(%%tmro-flair-sprites%%) no-repeat;
+      padding-left: 23px;
+      padding-bottom: 0px;
+      height: 20px;
+    }
+
+    .flair-benny { background-position: 0 0; }
+    .flair-cariann { background-position: 0 -70px; }
+    .flair-official { background-position: 0 -140px; }
+    .flair-patron { background-position: 0 -210px; }
+
 		
 		/* Flair-page  */
 		div.tabpane-content {
