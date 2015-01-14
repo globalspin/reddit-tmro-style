@@ -16,6 +16,7 @@
 		-------------------------------------------------------------------------- 
 
 		Modified by Chris Radcliff for /r/TMRO.
+    Last modified 12 January 2015: Added temporary fix for Reddit header (see bottom of file).
 
 */
 			
@@ -2339,3 +2340,9 @@
 			.pagename a:hover {background-position: 0px -43px;} /* Replace the 77 with your height */
 
 	/* --------------------------- */
+
+/* fix the reddit header on 14 January 2015 */
+#header {
+  z-index: 98
+}
+/* ---- end fix --- */
